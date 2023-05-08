@@ -1,0 +1,32 @@
+.botoes-andar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: kollektif;
+}
+
+.btn-andar {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-family: kollektif;
+}
+
+.botoes-funcao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px; 
+    font-family: kollektif;  
+    
+}
+
+.btn-funcao {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #a00303;
+    color: #ffffff;  
+    font-family: kollektif;  
+}

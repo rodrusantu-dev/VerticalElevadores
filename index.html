@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERTICAL Elevadores</title>
+    
+    <link rel="stylesheet" href="./css/botoes.css">   
+    <link rel="stylesheet" href="./css/footer.css"> 
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/paginas.css">
+    <link rel="stylesheet" href="./css/botaoTopo.css">
+    <link rel="shortcut icon" href="./assets/img/verticalFavicon.ico" type="image/x-icon">
+   
+    <script src="./js/script.js" defer></script>
+    <script src="./js/botaoTopo.js" defer></script>
+       
+</head>
+<body>
+
+    <header class="banner-principal">
+        <img class="banner-principal" src="./assets/img/bannerPrincipal.png" alt="banner-principal">
+    </header>
+
+    <div class="menu">
+        <ul>
+          <li class="menu-item"><a href="#testes">TESTES</a></li>
+          <li class="menu-item"><a href="#documentacao">DOCUMENTAÇÃO</a></li>
+          <li class="menu-item"><a href="#sobre">SOBRE</a></li>
+        </ul>
+      </div>
+      
+    <div class="tituloCentral">
+        <H2>CENTRAL DE COMANDO</H2>
+    </div>
+
+    <div class="container">
+
+        <div id="alertas"></div>
+            
+        <div class="botoes-andar">
+            <button class="btn-andar" onclick="irParaAndar(0)">Térreo</button>
+            <button class="btn-andar" onclick="irParaAndar(1)">Andar 1</button>
+            <button class="btn-andar" onclick="irParaAndar(2)">Andar 2</button>
+            <button class="btn-andar" onclick="irParaAndar(3)">Andar 3</button>
+            <button class="btn-andar" onclick="irParaAndar(4)">Andar 4</button>
+            <button class="btn-andar" onclick="irParaAndar(5)">Andar 5</button>
+        </div>
+
+        <div class="botoes-funcao"></div>
+            <button class="btn-funcao" onclick="pararElevador()">PARAR ELEVADOR</button>
+            <button class="btn-funcao" onclick="botaoPanico()">PÂNICO</button>
+            <p>Andar atual: <span id="andar-atual">1</span></p>
+        </div>
+
+    </div>
+
+    <paginas class="paginas">
+       
+        <section id="testes" class="testes">
+            <h2>Testes de Software</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, sequi. Dicta adipisci culpa accusamus
+               reiciendis aut neque earum quisquam repellendus veritatis ea? Voluptas, doloribus corporis. Ratione 
+               eos laboriosam eum quibusdam?
+            </p>
+        </section>
+        <br>
+        <section id="documentacao">
+            <h2>Documentação de Testes - Relatórios</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, sequi. Dicta adipisci culpa accusamus
+                reiciendis aut neque earum quisquam repellendus veritatis ea? Voluptas, doloribus corporis. Ratione 
+                eos laboriosam eum quibusdam?
+             </p>
+           </section>
+        <br>
+        <section id="sobre">
+            <h2>Sobre a Vertical e seu Programador</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, sequi. Dicta adipisci culpa accusamus
+                reiciendis aut neque earum quisquam repellendus veritatis ea? Voluptas, doloribus corporis. Ratione 
+                eos laboriosam eum quibusdam?</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, sequi. Dicta adipisci culpa accusamus
+                    reiciendis aut neque earum quisquam repellendus veritatis ea? Voluptas, doloribus corporis. Ratione 
+                    eos laboriosam eum quibusdam?</p>
+            
+            
+           </section>
+    </paginas>
+
+    <button class="botao-topo"></button>
+
+
+
+</body>
+<footer>
+    <p class="footer">Criado por Rodrigo Menezes - 2022</p>  
+</footer>
+</html>

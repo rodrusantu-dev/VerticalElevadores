@@ -1,0 +1,17 @@
+.menu {
+    text-align: right; /* alinha o menu à direita */
+    font-family: kollektif;
+}
+  
+  .menu a {
+    text-decoration: none; /* remove a linha de sublinhado */
+    color: #ffffff; /* define a cor do texto como branco */
+    background: transparent; /* define o fundo como transparente */
+    padding: 5px; /* adiciona um espaço ao redor do texto para melhorar a aparência */
+    font-weight: 10;
+  }
+  
+  .menu li {
+    display: inline-block; /* exibe os itens do menu em linha */
+    margin-right: 10px; /* adiciona um espaço entre os itens do menu */ 
+}
