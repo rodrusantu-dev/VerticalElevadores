@@ -18,7 +18,8 @@
    
     <script src="./js/script.js" defer></script>
     <script src="./js/botaoTopo.js" defer></script>
-       
+    <script src="./js/contadorPanico.js" defer></script>
+         
 </head>
 <body>
 
@@ -28,6 +29,7 @@
 
     <div class="menu">
         <ul>
+          <li class="menu-item"><a href="index.html">HOME</a></li>
           <li class="menu-item"><a href="#testes">TESTES</a></li>
           <li class="menu-item"><a href="#documentacao">DOCUMENTAÇÃO</a></li>
           <li class="menu-item"><a href="#sobre">SOBRE</a></li>
@@ -52,9 +54,11 @@
         </div>
 
         <div class="botoes-funcao"></div>
-            <button class="btn-funcao" onclick="pararElevador()">PARAR ELEVADOR</button>
-            <button class="btn-funcao" onclick="botaoPanico()">PÂNICO</button>
-            <p>Andar atual: <span id="andar-atual">1</span></p>
+           <button class="btn-funcao" onclick="pararElevador()">PARAR ELEVADOR</button>
+           <button id="botao-panico" class="btn-funcao" onclick="botaoPanico()">PÂNICO</button>
+
+        
+           <p>Andar atual: <span id="andar-atual">1</span></p>
         </div>
 
     </div>
@@ -63,9 +67,28 @@
        
         <section id="testes" class="testes">
             <h2>Testes de Software</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, sequi. Dicta adipisci culpa accusamus
-               reiciendis aut neque earum quisquam repellendus veritatis ea? Voluptas, doloribus corporis. Ratione 
-               eos laboriosam eum quibusdam?
+            <p> Teste de Software e Qualidade de Software são processos fundamentais para garantir a 
+                eficiência e a confiabilidade de um software. O Teste de Software tem como objetivo avaliar
+                a qualidade do software, verificando se ele está de acordo com as especificações e se
+                atende às necessidades do usuário.</p>
+                <br>
+                <p>Já a Qualidade de Software é a medida da conformidade
+                    do software com os requisitos funcionais e não funcionais, como eficiência, 
+                    confiabilidade, segurança, entre outros.Esses processos são importantes pois garantem que
+                    o software entregue atenda às necessidades do usuário e que esteja livre de erros e 
+                    falhas. Além disso, a qualidade do software impacta diretamente na reputação da empresa
+                    e na satisfação do cliente, evitando problemas futuros e retrabalhos. </p>
+                    <br>
+                    A Vertical 
+                Elevadores é uma empresa especializada em testagem de software de elevadores do mercado.
+                Contamos com uma equipe de programadores altamente capacitados que utilizam as melhores
+                práticas e metodologias para garantir a qualidade do software. Nós oferecemos serviços
+                de Teste de Software e Qualidade de Software, assegurando que o software entregue esteja 
+                livre de erros e falhas, atenda aos requisitos do cliente e esteja de acordo com as normas
+                e padrões do mercado.Com a Vertical Elevadores, você pode ter a certeza de que está 
+                contratando uma empresa confiável e comprometida com a qualidade do software. Entre em
+                contato conosco e saiba como podemos ajudá-lo a garantir a eficiência e a confiabilidade
+                do seu software.
             </p>
         </section>
         <br>

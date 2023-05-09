@@ -2,9 +2,8 @@
 var botaoTopo = document.querySelector(".botao-topo");
 
 // Adiciona um evento ao objeto window que é disparado toda vez que a página é rolada para cima ou para baixo
-window.onscroll = function() {
-  // Chama a função scrollFunction()
-  scrollFunction();
+ // Chama a função scrollFunction()
+window.onscroll = function() {scrollFunction();
 };
 
 // Define a função scrollFunction()
@@ -26,3 +25,4 @@ botaoTopo.addEventListener("click", function() {
   document.body.scrollTop = 0; // Para navegadores mais antigos
   document.documentElement.scrollTop = 0; // Para navegadores modernos
 });
+

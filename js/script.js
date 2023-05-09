@@ -5,6 +5,7 @@ var movimentoPausado = false;
 var panicoAcionado = false;
 var voice = window.speechSynthesis;
 
+
 function irParaAndar(andar) {
   // Verifica se o elevador está em movimento
   if (movimentoPausado) {
@@ -57,6 +58,7 @@ function pararElevador() {
   }, 5000);
 }
 
+
 function botaoPanico() {
   panicoAcionado = true;
   alertas.textContent = "Panico Acionado";
@@ -73,7 +75,6 @@ function anunciarMensagem(mensagem) {
     // Cria um objeto de fala com a mensagem desejada
     var utterance = new SpeechSynthesisUtterance(mensagem);
     utterance.lang = 'pt-BR';
-
     // Fala a mensagem
     voice.speak(utterance);
   }
