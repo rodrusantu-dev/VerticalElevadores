@@ -27,6 +27,7 @@ Caso o botão de parada de emergência seja acionado, o elevador irá parar de s
 - HTML
 - CSS
 - JavaScript
+- Sass
 
 ## Autor
 
