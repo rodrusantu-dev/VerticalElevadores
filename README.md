@@ -14,7 +14,11 @@ O objetivo deste projeto é aprimorar e criar um **projeto real nos estudos de Q
 - O elevador possui uma animação para simular o movimento entre os andares
 
 ## Funcionalidades de Teste de Software
-**EM DESENVOLVIMENTO
+Usar o código abaixo para iniciar o Cypress
+```` 
+npx cypress open
+````
+
 
 ## Como utilizar
 
@@ -26,8 +30,9 @@ Caso o botão de parada de emergência seja acionado, o elevador irá parar de s
 
 - HTML
 - CSS
-- JavaScript
 - Sass
+- JavaScript
+- Cypress
 
 ## Autor
 

@@ -14,5 +14,7 @@
     "nodemon": "^2.0.22",
     "readline-sync": "^1.4.10"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  }
 }
