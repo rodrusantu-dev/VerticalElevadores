@@ -1,0 +1,154 @@
+@charset "UTF-8";
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #030200;
+  font-family: kollektif;
+  background-color: #bd844e;
+}
+
+.tituloCentral {
+  background-color: #d5d7d8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: kollektif;
+}
+
+/*RESPONSIVIDADE DO BANNER PRINCIPAL*/
+@media screen and (max-width: 1800px) {
+  .banner-principal {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+.botao-topo {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 0;
+  border: none;
+  outline: none;
+  background-color: #f44336;
+  color: white;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.botao-topo:before {
+  content: "↑";
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.botoes-andar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: kollektif;
+}
+
+.btn-andar {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-family: kollektif;
+}
+
+.botoes-funcao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: kollektif;
+}
+
+.btn-funcao {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #a00303;
+  color: #ffffff;
+  font-family: kollektif;
+}
+
+* {
+  margin: 0 0 0 0;
+  text-decoration: none;
+}
+
+body {
+  background: #5F2E1C;
+}
+
+@font-face {
+  font-family: "kollektif"; /* escolha um nome para a fonte */
+  src: url("../assets/fonts/kollektif.ttf"); /* especifique o caminho para a fonte */
+}
+footer {
+  background-color: #723823;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  color: #ffb977;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: kollektif;
+}
+
+a {
+  color: rgb(251, 255, 255);
+}
+
+.menu {
+  text-align: right; /* alinha o menu à direita */
+  font-family: kollektif;
+}
+
+.menu a {
+  text-decoration: none; /* remove a linha de sublinhado */
+  color: #ffffff; /* define a cor do texto como branco */
+  background: transparent; /* define o fundo como transparente */
+  padding: 5px; /* adiciona um espaço ao redor do texto para melhorar a aparência */
+  font-weight: 10;
+}
+
+.menu li {
+  display: inline-block; /* exibe os itens do menu em linha */
+  margin-right: 10px; /* adiciona um espaço entre os itens do menu */
+}
+
+paginas {
+  color: rgb(34, 17, 17);
+  background-color: #ffffff;
+  gap: 10px;
+  font-weight: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

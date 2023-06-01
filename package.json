@@ -4,7 +4,7 @@
   "description": "Este é um projeto de um elevador virtual desenvolvido com HTML, CSS e JavaScript.\r Criado a empresa fictícia VERTICAL ELEVADORES.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cucumber-js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,6 @@
     "@cucumber/cucumber": "^9.1.2",
     "nodemon": "^2.0.22",
     "readline-sync": "^1.4.10"
-  }
+  },
+  "devDependencies": {}
 }
